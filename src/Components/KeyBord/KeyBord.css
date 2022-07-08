@@ -1,0 +1,14 @@
+.keyboard-base{
+    max-width: 1085px;
+    padding: 20px;
+    position : absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    background-color: rgb(197,197,197);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(30,30px);
+    grid-template-rows: repeat(5,60px);
+    grid-gap: 5px;
+}
